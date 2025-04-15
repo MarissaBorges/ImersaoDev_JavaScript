@@ -44,16 +44,19 @@ p {
   color: white;
 }
 
+/* Button Styles */
 button {
-  padding: 10px 20px;
-  margin: 10px;
+  background-color: #ff1b7b;
   border: none;
-  background: #ff1b7b;
+  padding: 10px 20px;
+  font-size: 1.2em;
   color: white;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 20px auto;
 }
 
 button:hover {
-  background: #19caca;
+  background-color: #1abc9c;
 }
